@@ -14,7 +14,9 @@
 		DCE2DD822B782FAA0069EE26 /* ObjCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE2DD6C2B782FA00069EE26 /* ObjCKit.framework */; };
 		DCE2DD832B782FAA0069EE26 /* ObjCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCE2DD6C2B782FA00069EE26 /* ObjCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCE2DD892B782FC50069EE26 /* MyRect.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE2DD872B782FC50069EE26 /* MyRect.h */; };
-		DCE2DD8A2B782FC50069EE26 /* MyRect.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE2DD882B782FC50069EE26 /* MyRect.m */; };
+		DCE2DD8A2B782FC50069EE26 /* MyRect.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCE2DD882B782FC50069EE26 /* MyRect.mm */; };
+		DCFEF6D02B7838600010D913 /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCFEF6CF2B7838600010D913 /* RandomNumber.cpp */; };
+		DCFEF6D22B7838860010D913 /* RandomNumber.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DCFEF6D12B7838860010D913 /* RandomNumber.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +67,9 @@
 		DCE2DD732B782FA00069EE26 /* ObjCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE2DD782B782FA00069EE26 /* ObjCKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCKitTests.m; sourceTree = "<group>"; };
 		DCE2DD872B782FC50069EE26 /* MyRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRect.h; sourceTree = "<group>"; };
-		DCE2DD882B782FC50069EE26 /* MyRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRect.m; sourceTree = "<group>"; };
+		DCE2DD882B782FC50069EE26 /* MyRect.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyRect.mm; sourceTree = "<group>"; };
+		DCFEF6CF2B7838600010D913 /* RandomNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
+		DCFEF6D12B7838860010D913 /* RandomNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RandomNumber.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +133,9 @@
 			children = (
 				DCE2DD6E2B782FA00069EE26 /* ObjCKit.h */,
 				DCE2DD872B782FC50069EE26 /* MyRect.h */,
-				DCE2DD882B782FC50069EE26 /* MyRect.m */,
+				DCE2DD882B782FC50069EE26 /* MyRect.mm */,
+				DCFEF6CF2B7838600010D913 /* RandomNumber.cpp */,
+				DCFEF6D12B7838860010D913 /* RandomNumber.hpp */,
 			);
 			path = ObjCKit;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 			files = (
 				DCE2DD892B782FC50069EE26 /* MyRect.h in Headers */,
 				DCE2DD7A2B782FA00069EE26 /* ObjCKit.h in Headers */,
+				DCFEF6D22B7838860010D913 /* RandomNumber.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE2DD8A2B782FC50069EE26 /* MyRect.m in Sources */,
+				DCE2DD8A2B782FC50069EE26 /* MyRect.mm in Sources */,
+				DCFEF6D02B7838600010D913 /* RandomNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

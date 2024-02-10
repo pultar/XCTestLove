@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nonnull id)initWithHeight:(int)height Width:(int)width;
 - (int)area;
+- (int)randomNumber;
 
 @end
 

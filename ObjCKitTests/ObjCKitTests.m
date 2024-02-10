@@ -29,6 +29,8 @@
     MyRect *rect = [[MyRect alloc] initWithHeight:20 Width:30];
     int expectedResult = 600;
     XCTAssertEqual(expectedResult, [rect area]);
+    int randomNumber = 42;
+    XCTAssertEqual(randomNumber, [rect randomNumber]);
 }
 
 @end
