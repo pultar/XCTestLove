@@ -6,6 +6,7 @@
 //
 
 #import "MyRect.h"
+#import "RandomNumber.hpp"
 
 @implementation MyRect
 
@@ -20,6 +21,10 @@
 
 - (int)area {
     return [self height] * [self width];
+}
+
+- (int)randomNumber {
+    return randomNumber();
 }
 
 - (NSString*)description {
